@@ -47,6 +47,11 @@ FOOTER    { BACKGROUND-COLOR:#ff5c5c;
   height: 700px;
   width: 1300px;
  }
+ .himgg{
+  height: 700px;
+  width: 1300px;
+
+ }
 header,nav,main,footer{
   
      padding: 5px;
