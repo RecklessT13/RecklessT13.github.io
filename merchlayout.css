@@ -1,0 +1,75 @@
+	 
+ .main {
+    display:grid;
+    grid-area: main;
+ 
+ 
+}
+.header {
+  display:grid;
+  grid-area: header;
+  
+}
+.nav ul{
+  display:grid;
+  grid-area: nav;
+   grid-template-columns: repeat(4, 1fr);
+Float: left;
+  
+}
+.section {
+  display:grid;
+  grid-area: section;
+  
+}
+.aside {
+  display:grid;
+  grid-area:aside;
+  grid-template-columns: repeat(auto-fit)
+ 
+}
+.footer {
+  display:grid;
+  grid-area: footer;
+ 
+}
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap:3px;
+}
+
+.layout{
+	display:grid;
+	grid-gap:1;
+grid-template-columns: 1fr ;
+	grid-template-areas:
+	" nav  "
+	"header "
+	"section "
+  "aside"
+	"main "
+	"footer "
+	}
+  
+  /*Proper layout needed to put my aside list on the top of the products page, putting it to the side causes issues. */
+   
+
+ .cart-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap:3px; 
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .nav, .header, .section, .aside, .main, .footer {
+      width: 100%;
+    }
+  }
