@@ -55,13 +55,15 @@ grid-template-columns: 1fr;
     .nav, .header, .section, .main, .footer, body {
       width: 100%;
       padding: 0%;
+     
     }
     .nav{
       float: left;
      
     }
-    .ul{
-      width: 50px;
+    .nav ul{
+      width: 20px;
     }
+
   }
 
