@@ -14,17 +14,9 @@ p, h1, h2, h3 h4{
   padding: 5px;
 }
 
-.nav ul {
+ul {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 0px;
   }
 
-.header, .nav, .footer{
-  margin: 0px;
-  padding: 0px;
 
-}
-.header-writing{
-  margin-left: 95px;
-}

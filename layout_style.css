@@ -50,8 +50,8 @@ grid-template-columns: 1fr;
       float: left;
     }
   }
- /* @media only screen and (max-width:500px) {
-    For mobile phones:
+ * @media only screen and (max-width:500px) {
+    /* For mobile phones: */
     .nav, .header, .section, .main, .footer, body {
       width: 100%;
       padding: 0%;
@@ -64,4 +64,3 @@ grid-template-columns: 1fr;
   
   }
 
- */

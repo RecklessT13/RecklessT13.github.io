@@ -1,4 +1,4 @@
-
+   
         
           body  {
             font-family:"Bookish", "helvetica", sans-serif;
@@ -50,6 +50,7 @@ FOOTER    { BACKGROUND-COLOR:#ff5c5c;
  .himgg{
   height: 700px;
   width: 1300px;
+  
 
  }
 header,nav,main,footer{
@@ -295,8 +296,7 @@ opacity: 1;
       padding: 35px;
       }
       .container1, .container2, .container3 {
-        max-width: 1200px;
-        min-width: 0;
+
         margin: 25px 50px;
         border-color: #ff5c5c;
         background-color: antiquewhite;
@@ -474,3 +474,4 @@ opacity: 1;
         from{width: 0;}
         to{ width: 100%;}
       }
+      
