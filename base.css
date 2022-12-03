@@ -1,0 +1,22 @@
+article, aside, details, dl, figcaptions, figure, footer, header, main, nav, section, aside {
+  
+  display:block;
+
+  }
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p, h1, h2, h3 h4{
+  
+  margin: 0px;
+  padding: 5px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+
